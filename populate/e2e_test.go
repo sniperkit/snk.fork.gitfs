@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,14 +29,13 @@ import (
 	"reflect"
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-
 	"github.com/google/slothfs/cache"
 	"github.com/google/slothfs/fs"
 	"github.com/google/slothfs/gitiles"
 	"github.com/google/slothfs/manifest"
 	"github.com/hanwen/go-fuse/fuse"
 	"github.com/hanwen/go-fuse/fuse/nodefs"
+	"gopkg.in/src-d/go-git.v4/plumbing"
 )
 
 // a bunch of random sha1s.

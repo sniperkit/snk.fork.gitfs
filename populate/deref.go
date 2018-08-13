@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,10 +24,9 @@ import (
 	"fmt"
 	"log"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-
 	"github.com/google/slothfs/gitiles"
 	"github.com/google/slothfs/manifest"
+	"gopkg.in/src-d/go-git.v4/plumbing"
 )
 
 func parseID(s string) (*plumbing.Hash, error) {

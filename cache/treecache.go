@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,11 +29,10 @@ import (
 	"path/filepath"
 
 	"github.com/google/slothfs/gitiles"
+	git "gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
-
-	git "gopkg.in/src-d/go-git.v4"
 )
 
 // A TreeCache caches recursively expanded trees by their git commit and tree IDs.
